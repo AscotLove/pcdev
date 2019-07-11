@@ -1,0 +1,23 @@
+window.onload=function () {
+    ;(function () {
+        //头部使用的标签
+        var oHeaderNav =document.querySelector('.header_nav'),
+            oHeaderNavLi=document.querySelectorAll('.header_nav li'),
+            oHeaderArrow=document.querySelector('.header-arrow');
+        //arrow是固定值，用一个变量保存，使不用每次计算
+        var arrowW = oHeaderArrow.offsetWidth/2;
+        //当使用两次以上时，优化为函数
+        arrow(oHeaderNavLi[0]);
+        function arrow(node){
+            oHeaderArrow.style.left=node.offsetLeft+node.offsetWidth/2-arrowW+'px';
+        }
+
+        for (var i = 0,len = oHeaderNavLi.length; i < len; i++) {
+            oHeaderNavLi[i].onclick=function () {
+                arrow(this);
+            }
+        }
+        function arrowMove(){
+        }
+    })();
+}

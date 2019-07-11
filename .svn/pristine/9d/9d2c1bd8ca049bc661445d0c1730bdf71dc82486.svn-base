@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <div class="header_container">
+            <div class="header-arrow"></div>
+            <h1 class="header_logo"><a href="javascript:;">
+                <img src="./imgs/logo.png" alt="">
+            </a></h1>
+            <ul class="header_nav">
+                <li>
+                    <!--<a href="javascript:;">-->
+                        <div class="header_navup">
+                            <img src="./imgs/home.png" alt="">
+                        </div>
+                    <!--</a>-->
+                    <!--<a href="javascript:;">-->
+                        <div class="header_navdown">
+                            <img src="./imgs/home_gruen.png" alt="">
+
+                        </div>
+                    <!--</a>-->
+                </li>
+                <li>
+                    <h3 class="header_navup">Course</h3>
+                    <h3 class="header_navdown">Course</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">Works</h3>
+                    <h3 class="header_navdown">Works</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">About</h3>
+                    <h3 class="header_navdown">About</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">Team</h3>
+                    <h3 class="header_navdown">Team</h3>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <article class="content">
+        <ul class="content-nav">
+            <li>
+                <div class="content-nav-home">
+                    <ul class="content-home-carousel">
+                        <li class="right-show"></li>
+                        <li class="left-hide"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="content-home-point">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li><div class="content-nav-Course">Course</div></li>
+            <li>
+                <div class="content-nav-Works">
+                    <p class="commul-font">
+                        EINBLICK
+                        ERKENNTNIS
+                        ERGEBNIS
+                    </p>
+                    <ul class="content-nav-img">
+                        <li>
+                            <img src="./imgs/worksimg1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./imgs/worksimg2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./imgs/worksimg3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./imgs/worksimg4.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div  class="content-nav-About">
+                    <h3 class="commul-font">
+                        <span>DIE</span>
+                        <span>SPEZIELLE </span>
+                        <span>VIELFALT</span>
+                    </h3>
+                    <p class="commonText">Der bunte Medienmix ist die Faszination die uns antreibt und das, was man an uns schätzt. Von A bis Z und von vorne bis hinten nehmen wir Ihr Projekt unter unsere Fittiche und lassen es zu etwas Großartigem heranwachsen.</p>
+                    <ul class="content-About-img1">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="content-About-img2">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <img src="" alt="">
+                </div>
+            </li>
+            <li><div class="content-nav-Team">Team</div></li>
+        </ul>
+    </article>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

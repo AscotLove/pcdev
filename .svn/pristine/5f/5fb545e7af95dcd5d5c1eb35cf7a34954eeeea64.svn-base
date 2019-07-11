@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <div class="header_container">
+            <div class="header-arrow"></div>
+            <h1 class="header_logo"><a href="javascript:;">
+                <img src="./imgs/logo.png" alt="">
+            </a></h1>
+            <ul class="header_nav">
+                <li>
+                    <!--<a href="javascript:;">-->
+                        <div class="header_navup">
+                            <img src="./imgs/home.png" alt="">
+                        </div>
+                    <!--</a>-->
+                    <!--<a href="javascript:;">-->
+                        <div class="header_navdown">
+                            <img src="./imgs/home_gruen.png" alt="">
+
+                        </div>
+                    <!--</a>-->
+                </li>
+                <li>
+                    <h3 class="header_navup">Course</h3>
+                    <h3 class="header_navdown">Course</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">Works</h3>
+                    <h3 class="header_navdown">Works</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">About</h3>
+                    <h3 class="header_navdown">About</h3>
+                </li>
+                <li>
+                    <h3 class="header_navup">Team</h3>
+                    <h3 class="header_navdown">Team</h3>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <article class="content">
+        <ul class="content-nav">
+            <li><div class="content-nav-home">home</div></li>
+            <li><div class="content-nav-Course">Course</div></li>
+            <li><div class="content-nav-Works">Works</div></li>
+            <li><div  class="content-nav-About">About</div></li>
+            <li><div class="content-nav-Team">Team</div></li>
+        </ul>
+    </article>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
